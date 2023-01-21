@@ -1,0 +1,30 @@
+.carta{
+    padding: 2rem 0;
+}
+.container__menu{
+    display: flex;
+    gap: 2rem;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+.carta__container__pizzas{
+    justify-content: center;
+}
+.menu__titulo{
+    font-size: 1.1rem;
+    padding-bottom: 1.5rem;
+}
+.items__pizzas,
+.items__tamanho{
+    font-size: .9rem;
+    padding: .5rem 0;
+}
+.items__pizzas::before{
+    content: "🍕 ";
+}
+.items__tamanho::before{
+    content: "✅ ";
+}
+.carta__imgs{
+    padding: 3rem 0;
+}

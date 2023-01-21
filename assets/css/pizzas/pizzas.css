@@ -1,0 +1,70 @@
+.pizzas{
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    height: calc(100vh - 50px);
+    gap: 0.3rem;
+}
+.pizzas__principal{
+    background: url(/assets/imgs/pizzaBarbacoa.webp) center / cover no-repeat;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+.pizzas__terciario:nth-child(2){
+    background: url(/assets/imgs/pizzaPeperoni.webp) center / cover no-repeat;
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+.pizzas__terciario:nth-child(3){
+    background: url(/assets/imgs/pizzaNapolitana.webp) center /cover no-repeat;
+    grid-row: 1/2;
+    grid-column: 4/5;
+}
+.pizzas__terciario:nth-child(4){
+    background: url(/assets/imgs/pizzaTurca.webp);
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+.pizzas__terciario:nth-child(5){
+    background: url(/assets/imgs/pizzaQuesos.webp) center / cover no-repeat;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+.pizzas__secundarias:nth-child(6){
+    background: url(/assets/imgs/pizzaMargarina.webp) center /cover no-repeat;
+    grid-row: 3/4;
+    grid-column: 1/3;
+}
+.pizzas__terciario:nth-child(7){
+    background: url(/assets/imgs/pizzaCarbonara.webp) center / cover no-repeat;
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+.pizzas__terciario:nth-child(8){
+    background: url(/assets/imgs/pizzaMexicana.webp) center / cover no-repeat;
+    grid-row: 3/4;
+    grid-column: 4/5;
+}
+.pizzas__secundarias:nth-child(9){
+    background: url(/assets/imgs/pizzaCaprichosa.webp) center / cover no-repeat;
+   grid-column: 1/3;
+   grid-row: 4/5;
+}
+.pizzas__secundarias:nth-child(10){
+    background: url(/assets/imgs/pizzaHawaiana.webp) center / cover no-repeat;
+    grid-column: 3/5;
+    grid-row: 4/5;
+}
+.box__pizza{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+}
+.pizzas__titulo{
+    background: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+}

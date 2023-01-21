@@ -1,0 +1,15 @@
+.ubicacion{
+    padding: 2rem 0 0 0;
+}
+.ubicacion__mapa{
+    padding: 1rem 3rem;
+}
+.mapa{
+    width: 100%;
+}
+.ubicacion__titulo{
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2rem;
+}

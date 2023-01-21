@@ -1,0 +1,22 @@
+.biografia{
+    padding: 1rem 0;
+}
+.biografia__container{
+    padding: 1rem 4rem;
+}
+.biografia__titulo{
+    font-size: 2.2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+.biografia__description{
+    line-height: 2rem;
+    font-size: 1.3rem;
+    text-align: justify;
+}
+.biografia__img{
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding-right: 1.5em;
+}

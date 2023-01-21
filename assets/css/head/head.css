@@ -1,0 +1,48 @@
+.cabecera{
+    background: url(/assets/imgs/pizza.webp) center / cover no-repeat;
+    height: 200px;
+}
+.cebecera__container{
+    padding: 1rem;
+    background: rgba(1, 1, 1, 0.5);
+    height: calc(100% - 2rem);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.cabecera__container__logo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+.cabecera__container__menu{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.logo__img{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+}
+.nav__container{
+    display: flex;
+    justify-content: space-around;
+    gap: 1.2rem;
+}
+.joy{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-family: var(--especial--letra);
+}
+.logo__pizza{
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+}
+.nav__items{
+    color: white;
+    font-size: 1.2em; 
+}

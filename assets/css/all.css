@@ -1,0 +1,10 @@
+:root{
+   --especial--letra:'Lobster', cursive;
+   --fuente--all: 'Montserrat', sans-serif; 
+}
+*{
+    font-family: var(--fuente--all);
+}
+main{
+    background: #f5f5f5;
+}
