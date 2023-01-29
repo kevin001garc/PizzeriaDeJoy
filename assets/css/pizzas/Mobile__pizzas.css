@@ -1,0 +1,30 @@
+@media only screen and (max-width: 750px){
+
+    .pizzas__principal{
+        grid-column: 1/5;
+        grid-row: 1/2;
+    }
+    .pizzas__terciario:nth-child(2){
+        grid-row: 2/3;
+        grid-column: 1/3;
+    }
+    .pizzas__terciario:nth-child(3),
+    .pizzas__terciario:nth-child(4){
+        display: none;
+        grid-column: none;
+        grid-row: none;
+    }
+    .pizzas__terciario:nth-child(5){
+        grid-row: 2/3;
+        grid-column: 3/5;
+    }
+    .pizzas__terciario:nth-child(8){
+        display: none;
+        grid-row: none;
+        grid-column: none;
+    }
+    .pizzas__terciario:nth-child(7){
+        grid-row: 3/4;
+        grid-column: 3/5;
+    }
+}

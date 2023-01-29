@@ -5,6 +5,9 @@
 *{
     font-family: var(--fuente--all);
 }
+body{
+    width: 100vw;
+}
 main{
-    background: #f5f5f5;
+    background: white;
 }

@@ -1,0 +1,11 @@
+@media only screen and (max-width: 750px){
+    .carta{
+        width: 100vw;
+        padding: 1rem 0;
+    }
+    .list__items{
+        display: block;
+        text-align: center;
+    }
+
+}

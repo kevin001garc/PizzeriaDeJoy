@@ -1,0 +1,40 @@
+.contacto{
+    padding: 2.5rem 0;
+    width: 940px;
+    margin: 0 auto;
+}
+.contacto__titulo{
+    font-size: 1.8rem;
+    text-align: left;
+    padding-bottom: 1rem;
+}
+.formulario label{
+    display: block;
+    font-size: 1.3rem;
+    margin: 0 0 10px 0;
+}
+.padron, textarea{
+    margin: 0 0 15px 0;
+    padding: 10px 0 10px 5px;
+    width: 50%;
+    color: #000000;
+    font-size: 25px;
+}
+.contacto label, legend{
+    display: block;
+    padding: .8rem 0;
+    font-size: 26px;
+}
+.formulario option{
+    padding: 1rem 0;
+    font-size: 24px;
+}
+.enviar{
+    color: #000000;
+    width: 30%;
+    font-size: 24px;
+    padding: 1em 0;
+    border-radius: 10px;
+    background: orange;
+}
+

@@ -1,19 +1,24 @@
 
 .derechos{
+    width: 100vw;
     background: url(/assets/imgs/texturaMadera2.png) center / cover no-repeat;
+    padding: 2em 0;
+}
+.derechos__container{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 2em 0;
+    /*justify-content: center;
+    align-items: center;*/
 }
 .derechos img{
     width: 100px;
     height: 100px;
     padding-bottom: 2rem;
+    margin: .2em auto;
 }
 .derechos h3{
     color: aliceblue;
     font-size: 1.6em;
     font-weight: bold;
+    text-align: center;
 }

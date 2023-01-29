@@ -1,9 +1,13 @@
 .carta{
     padding: 2rem 0;
+    width: 100vw;
+}
+.carta__container{
+    width: 100vw;
 }
 .container__menu{
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: space-around;
     flex-wrap: nowrap;
 }
@@ -27,4 +31,5 @@
 }
 .carta__imgs{
     padding: 3rem 0;
+    width: 250px;
 }

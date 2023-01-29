@@ -1,8 +1,10 @@
 .cabecera{
     background: url(/assets/imgs/pizza.webp) center / cover no-repeat;
     height: 200px;
+    width: 100vw;
 }
 .cebecera__container{
+    width: calc(100%-2rem);
     padding: 1rem;
     background: rgba(1, 1, 1, 0.5);
     height: calc(100% - 2rem);

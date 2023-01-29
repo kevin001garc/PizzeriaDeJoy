@@ -1,0 +1,28 @@
+@media only screen and (max-width: 750px){
+    .contacto{
+        width: 300px;
+        padding: 1.5rem 0;
+    }
+    .contacto__titulo{
+        font-size: 1.4rem;
+    }
+    .formulario label{
+        font-size: 1rem;
+        margin-bottom: 6px;
+    }
+    .padron, textarea{
+        width: 250px;
+        font-size: 1rem;
+        padding: 5px 0 5px 5px;
+        margin-bottom: 7px;
+    }
+    .contacto label, legend{
+        padding: .5rem 0;
+        font-size: 1rem;
+    }
+    .enviar{
+        width: 200px;
+        font-size: 1em;
+        padding: .5rem 0;
+    }
+}

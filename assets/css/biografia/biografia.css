@@ -15,7 +15,7 @@
     text-align: justify;
 }
 .biografia__img{
-    float: left;
+    display: none;
     width: 200px;
     height: 200px;
     padding-right: 1.5em;

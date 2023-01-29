@@ -1,0 +1,45 @@
+.descripcion{
+    padding: 2em 0;
+    background: linear-gradient(#f5f5f5, rgb(251, 251, 113));
+}
+.descripcion__container{
+    padding: 0 2em;
+}
+.descripcion__titulo{
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 1em 0;
+    font-family: var(--especial--letra);
+}
+.descripcion__img{
+    float: left;
+    padding-right: 20px;
+    width: 300px;
+    height: 200px;
+}
+.descripcion__pizza{
+    font-size: 1.6rem;
+    line-height: 2.3rem;
+    text-align: justify;
+}
+.ingrediente{
+    clear: left;
+    padding: 1.5rem 0;
+    text-align: center;
+    align-items: center;
+}
+.ingrediente h3{
+    font-size: 1.7rem;
+    padding-bottom: 15px;
+    font-family: var(--especial--letra);
+}
+.ingredientes{
+    font-size: 1.4rem;
+    padding-bottom: 10px;
+}
+.ingredientes::before{
+    content: "✧";
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 900;
+}

@@ -1,10 +1,9 @@
 .pizzas{
-    padding: .5rem;
+    width: 100%;
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     grid-template-rows: 25% 25% 25% 25%;
     height: calc(100vh - 50px);
-    gap: 0.3rem;
 }
 .pizzas__principal{
     background: url(/assets/imgs/pizzaBarbacoa.webp) center / cover no-repeat;

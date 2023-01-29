@@ -1,0 +1,8 @@
+@media only screen and (max-width: 750px){
+    .contacto__container{
+        flex-direction: column;
+    }
+    .contacto__container__info{
+        margin: .2rem auto;
+    }
+}
